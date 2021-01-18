@@ -1,0 +1,8 @@
+TODO:
+
+fix ALL of the style
+make sure there are no stray quotes or missed text formatting in the flameboxes
+
+that weird lack of padding after scrub's oog
+
+change color of the highlighted active stuff

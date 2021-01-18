@@ -1,0 +1,157 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: normal;
+    background-color: #1d1d1d;
+    color: gold;
+    margin: 0;
+  }
+  
+  h1 {
+    text-shadow: 1px 1px 2px goldenrod;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 4px;
+  }
+
+  h2 {
+    margin-bottom: 4px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .flamebox {
+    padding: 1px 18px;
+    margin-bottom: 4px;
+    background-color: #3b3b3b;
+  }
+
+  .teamlink {
+    display: flex;
+    justify-content: space-between;
+    color: crimson;
+    cursor: pointer;
+    padding: 8px;
+    border: 2px solid goldenrod;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  .leftpanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    min-width: 25%
+  }
+
+  .middlepanel {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    min-width: 50%
+  }
+
+  .bonkcontainer {
+    padding-top: 16px;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0;
+  }
+
+  .rightpanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    min-width: 25%;
+  }
+  
+  .collapsible {
+    padding: 18px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    background-color: #1f1d1f;
+  }
+  
+  .active, .teamlink:hover, #tabButton:hover {
+    background-color: #2b2b2b;
+  }
+  
+  .content {
+    font-size: 14px;
+    background-color: #2b2b2b;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  #logo {
+    margin-bottom: 0;
+  }
+
+  .teambox {
+    box-shadow: 0 0 2px 2px gold;
+    display: flex;
+    flex-direction: column;
+    background-color:#1f1d1f;
+    width: 50%;
+  }
+
+  .teambox > h1 {
+    margin: 0;
+    padding: 16px 0;
+    text-shadow: 1px 1px 1px goldenrod;
+    border: 2px solid goldenrod;
+  }
+
+  #twitterlogo {
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+  }
+
+  #bottle {
+    height: 100%;
+  }
+
+  #seasonSelector {
+    display: flex;
+    justify-content: space-between;
+    color: crimson;
+    border: 2px solid goldenrod;
+    text-align: center;
+    outline: none;
+  }
+
+  #tabButton {
+    background-color: inherit;
+    color: crimson;
+    border: 2px solid goldenrod;
+    padding: 5px 0;
+    flex-grow: 1;
+    cursor: pointer;
+    font-size: 15px;
+  }
