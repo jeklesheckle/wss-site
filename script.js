@@ -13,35 +13,6 @@ for (let i = 0; i < coll.length; i++) {
 }
 
 
-// let season30 = false
-
-// window.onload = function initializeSeasonSwitcher() {
-//   toggleSeason()
-// }
-
-// function toggleSeason() {
-//   season30 = !season30;
-
-//   let season29Stuff = document.getElementsByClassName("season29");
-//   let season30Stuff = document.getElementsByClassName("season30");
-
-//   for (let i = 0; i < season29Stuff.length; i++) {
-//     if (season30) {
-//       season29Stuff[i].style.display = "none";
-//     } else {
-//       season29Stuff[i].style.display = "flex";
-//     }
-//   }
-
-//   for (let i = 0; i < season30Stuff.length; i++) {
-//     if (season30) {
-//       season30Stuff[i].style.display = "flex";
-//     } else {
-//       season30Stuff[i].style.display = "none";
-//     }
-//   }
-// }
-
 let season = 30;
 
 window.onload = function initializeUpdateSeason() {
